@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.HomePageElem{
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
+}
+.HomePageRoomForm{
+  background-color: #0B1449;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+.inputDiv{
+  display: flex;
+  flex-direction: column;
+}
+.roomIDLable{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.logoHome{
+  height: 80px;
+  margin-bottom: 30px;
+}
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #02C19E;
+}
+.btn:hover{
+  background-color: #9036ff;
+}
+.HomeBtn{
+  display: flex;
+}
+.NewRoomBtn{
+  
+  width: 100px;
+}
+.JoinBtn{
+  width: 100px;
+  margin-left: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.PairCodePage{
+  display: grid;
+  grid-template-columns: 230px 1fr;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sideBar{
+  background-color: #0B1449;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.sideInnerBar{
+  flex: 1;
+}
+.userList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.user{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.Name{
+  margin-top: 10px;
+}
+.logoCode{
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+.logoCodeImg{
+  height: 60px;
+}
+.LeaveBtn{
+  margin-top: 20px;
+  width: 100%;
+}
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
 }
