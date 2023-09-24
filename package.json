@@ -20,7 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "scripts": {
     "start:front": "react-scripts start",
